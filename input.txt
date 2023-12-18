@@ -1,0 +1,1 @@
+comm(U*b#(l;up)*b(l;up)*b#(l;down)*b(l;down)+E*b#(l;s)*b(l;s);-J*(b#(l';sp)*b(m';sp)+b#(m';sp)*b(l';sp)))
