@@ -1,1 +1,4 @@
 comm(U*b#(l;up)*b(l;up)*b#(l;down)*b(l;down)+E*b#(l;s)*b(l;s);-J*(b#(l';sp)*b(m';sp)+b#(m';sp)*b(l';sp)))
+
+
+comm(U*b#("" (l;up))*ba("" (l;up))*b#("" (l;down))*ba("" (l;down))+E*b#("" (l;s))*ba("" (l;s));-J*(b#("" (l';sp))*ba("" (m';sp))+b#("" (m';sp))*ba("" (l';sp))))
