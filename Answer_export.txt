@@ -34,7 +34,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -56,7 +56,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -78,7 +78,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -100,7 +100,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
@@ -134,7 +134,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -156,7 +156,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -178,7 +178,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -200,7 +200,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
@@ -230,7 +230,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "l'",
+                      "value": "l",
                       "children": []
                     },
                     {
@@ -252,7 +252,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "m'",
+                      "value": "m",
                       "children": []
                     },
                     {
@@ -274,7 +274,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "l'",
+                      "value": "l",
                       "children": []
                     },
                     {
@@ -296,101 +296,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "l'",
-                      "children": []
-                    },
-                    {
-                      "type": "up_arrow",
-                      "value": "",
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "bracketed_multiplication",
-          "value": "",
-          "children": [
-            {
-              "type": "bosonic_annihilation",
-              "value": "b",
-              "children": [
-                {
-                  "type": "structural_container",
-                  "value": "",
-                  "children": [
-                    {
-                      "type": "variable",
-                      "value": "l'",
-                      "children": []
-                    },
-                    {
-                      "type": "down_arrow",
-                      "value": "",
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "bosonic_annihilation",
-              "value": "b",
-              "children": [
-                {
-                  "type": "structural_container",
-                  "value": "",
-                  "children": [
-                    {
-                      "type": "variable",
-                      "value": "m'",
-                      "children": []
-                    },
-                    {
-                      "type": "up_arrow",
-                      "value": "",
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "bosonic_creation",
-              "value": "b",
-              "children": [
-                {
-                  "type": "structural_container",
-                  "value": "",
-                  "children": [
-                    {
-                      "type": "variable",
-                      "value": "m'",
-                      "children": []
-                    },
-                    {
-                      "type": "down_arrow",
-                      "value": "",
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "bosonic_creation",
-              "value": "b",
-              "children": [
-                {
-                  "type": "structural_container",
-                  "value": "",
-                  "children": [
-                    {
-                      "type": "variable",
-                      "value": "m'",
+                      "value": "l",
                       "children": []
                     },
                     {
@@ -418,11 +324,11 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "l'",
+                      "value": "l",
                       "children": []
                     },
                     {
-                      "type": "up_arrow",
+                      "type": "down_arrow",
                       "value": "",
                       "children": []
                     }
@@ -440,7 +346,29 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "m'",
+                      "value": "m",
+                      "children": []
+                    },
+                    {
+                      "type": "up_arrow",
+                      "value": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bosonic_creation",
+              "value": "b",
+              "children": [
+                {
+                  "type": "structural_container",
+                  "value": "",
+                  "children": [
+                    {
+                      "type": "variable",
+                      "value": "m",
                       "children": []
                     },
                     {
@@ -462,29 +390,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "l'",
-                      "children": []
-                    },
-                    {
-                      "type": "down_arrow",
-                      "value": "",
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "bosonic_creation",
-              "value": "b",
-              "children": [
-                {
-                  "type": "structural_container",
-                  "value": "",
-                  "children": [
-                    {
-                      "type": "variable",
-                      "value": "l'",
+                      "value": "m",
                       "children": []
                     },
                     {
@@ -512,7 +418,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "l'",
+                      "value": "l",
                       "children": []
                     },
                     {
@@ -534,7 +440,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "m'",
+                      "value": "m",
                       "children": []
                     },
                     {
@@ -556,7 +462,7 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "m'",
+                      "value": "l",
                       "children": []
                     },
                     {
@@ -578,7 +484,101 @@
                   "children": [
                     {
                       "type": "variable",
-                      "value": "m'",
+                      "value": "l",
+                      "children": []
+                    },
+                    {
+                      "type": "up_arrow",
+                      "value": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "bracketed_multiplication",
+          "value": "",
+          "children": [
+            {
+              "type": "bosonic_annihilation",
+              "value": "b",
+              "children": [
+                {
+                  "type": "structural_container",
+                  "value": "",
+                  "children": [
+                    {
+                      "type": "variable",
+                      "value": "l",
+                      "children": []
+                    },
+                    {
+                      "type": "up_arrow",
+                      "value": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bosonic_annihilation",
+              "value": "b",
+              "children": [
+                {
+                  "type": "structural_container",
+                  "value": "",
+                  "children": [
+                    {
+                      "type": "variable",
+                      "value": "m",
+                      "children": []
+                    },
+                    {
+                      "type": "down_arrow",
+                      "value": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bosonic_creation",
+              "value": "b",
+              "children": [
+                {
+                  "type": "structural_container",
+                  "value": "",
+                  "children": [
+                    {
+                      "type": "variable",
+                      "value": "m",
+                      "children": []
+                    },
+                    {
+                      "type": "down_arrow",
+                      "value": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "bosonic_creation",
+              "value": "b",
+              "children": [
+                {
+                  "type": "structural_container",
+                  "value": "",
+                  "children": [
+                    {
+                      "type": "variable",
+                      "value": "m",
                       "children": []
                     },
                     {
@@ -610,7 +610,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
@@ -632,7 +632,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
@@ -654,7 +654,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -676,7 +676,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
@@ -710,7 +710,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
@@ -732,7 +732,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
@@ -754,7 +754,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "l'",
+                          "value": "l",
                           "children": []
                         },
                         {
@@ -776,7 +776,7 @@
                       "children": [
                         {
                           "type": "variable",
-                          "value": "m'",
+                          "value": "m",
                           "children": []
                         },
                         {
