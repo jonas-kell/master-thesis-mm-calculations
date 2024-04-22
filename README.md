@@ -11,4 +11,4 @@ The work for my Master-Thesis is split into multiple repositories (links for qui
 # Usage
 
 This repository is supposed to be used with the code-editor [VS-Code](https://code.visualstudio.com/).
-There the extension [Math-Manipulator](https://marketplace.visualstudio.com/items?itemName=jonas-kell.math-manipulator) is required to open the `.mm-data` files.
+There the extension [Math-Manipulator](https://marketplace.visualstudio.com/items?itemName=jonas-kell.math-manipulator) is required to open the `.mmdata` files.
