@@ -15,9 +15,10 @@ func("V" t) ;=; -J sum((<l ;m>;s) {} (oft c#(l;s)oft c(m;s) + oft c#(m;s)oft c(l
 
 sum(([ ;l ;m; ]) {} (oft c#(l)oft c(m)+oft d#(l)oft d(m) ))
 
-oft c#(l)oft c(m) = c#(l)  (D - 2 i E (c#(l)c(l)+d#(l)d(l)) -4 i c#(l)c(l)d#(l)d(l)F) * (A + 2 i B (c#(m)c(m)+d#(m)d(m)) +4 i c#(m)c(m)d#(m)d(m)C) c(m)
+oft c#(l)oft c(m) =  (cvc("ep"; l) ((1 + ((cvc("up"; {}) -1))* d#(l)d(l)))) c#(l)    (cvc("em"; m) (1 + ((cvc("um"; {}) -1))* d#(m)d(m))) c(m)
 
-oft d#(l)oft d(m) = d# l (D- 2 i E (c# l c l  + d# l d l) -4 i c# l c l d# l d l F) (A + 2 i B (c# m c m + d# m d m) + 4 i c# m c m d# m d m C) d m
+
+oft d#(l)oft d(m) =  (cvc("ep"; l) ((1 + ((cvc("up"; {}) -1))* c#(l)c(l)))) d#(l)    (cvc("em"; m) (1 + ((cvc("um"; {}) -1))* c#(m)c(m))) d(m)
 
 
 
