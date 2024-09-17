@@ -2,8 +2,14 @@ c#   hc#("c" #0)
 d#   hc#("d" #0)
 c    hca("c" #0)
 d    hca("d" #0)
+
 s    \sigma
 oft  #0\lbracket t\rbracket
+
+ec   \varepsilon^c_{#0}
+ed   \varepsilon^d_{#0}
+
+CALCULATE Vs
 
 func("V" t) ;=; -J sum((<l ;m>;s) {} (oft c#(l;s)oft c(m;s) + oft c#(m;s)oft c(l;s)))
 
@@ -12,3 +18,19 @@ sum(([ ;l ;m; ]) {} (oft c#(l)oft c(m)+oft d#(l)oft d(m) ))
 oft c#(l)oft c(m) = c#(l)  (D - 2 i E (c#(l)c(l)+d#(l)d(l)) -4 i c#(l)c(l)d#(l)d(l)F) * (A + 2 i B (c#(m)c(m)+d#(m)d(m)) +4 i c#(m)c(m)d#(m)d(m)C) c(m)
 
 oft d#(l)oft d(m) = d# l (D- 2 i E (c# l c l  + d# l d l) -4 i c# l c l d# l d l F) (A + 2 i B (c# m c m + d# m d m) + 4 i c# m c m d# m d m C) d m
+
+
+
+TIME EVOLUTIONS
+
+comm((U c#(l)c(l)d#(l)d(l) + ec(l)c#(l)c(l) + ed(l)d#(l)d(l)) c(m))
+
+comm((U c#(l)c(l)d#(l)d(l) + ec(l)c#(l)c(l) + ed(l)d#(l)d(l)) c#(m))
+
+comm((U c#(l)c(l)d#(l)d(l) + ec(l)c#(l)c(l) + ed(l)d#(l)d(l)) d(m)) 
+
+comm((U c#(l)c(l)d#(l)d(l) + ec(l)c#(l)c(l) + ed(l)d#(l)d(l)) d#(m))
+
+comm((U c#(l)c(l)d#(l)d(l) + ec(l)c#(l)c(l) + ed(l)d#(l)d(l)); c#(m)*c(m))
+
+comm((U c#(l)c(l)d#(l)d(l) + ec(l)c#(l)c(l) + ed(l)d#(l)d(l)); d#(m)*d(m))
